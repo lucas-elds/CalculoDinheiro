@@ -1,9 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Troco</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body></body>
+
+  <body>
+    <h1>Troco</h1>
+    <input id="recebido" type="text" placeholder="Dinheiro recebido" />
+    <input id="valor" name="text" placeholder="Valor da compra" />
+    <button onclick="calcular()">Calcular</button>
+    <h2 id="troco"></h2>
+    <ul id="notas"></ul>
+
+    <script src="script.js"></script>
+  </body>
 </html>
