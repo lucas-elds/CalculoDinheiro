@@ -4,14 +4,14 @@ const troco = document.querySelector("#troco");
 let notasHTML = document.querySelector("#notas");
 const notas = [200, 100, 50, 20, 10, 5, 2, 1];
 const cedulas = [
-  "/img/real200.png",
-  "/img/real100.png",
-  "/img/real50.png",
-  "/img/real20.png",
-  "/img/real10.png",
-  "/img/real5.png",
-  "/img/real2.png",
-  "/img/real1.png",
+  "img/real200.png",
+  "img/real100.png",
+  "img/real50.png",
+  "img/real20.png",
+  "img/real10.png",
+  "img/real5.png",
+  "img/real2.png",
+  "img/real1.png",
 ];
 
 function calcular() {
