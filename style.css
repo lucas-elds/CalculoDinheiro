@@ -1,8 +1,97 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  background-color: #1a1a1a;
+}
+
+header {
+  background-color: #34825f;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+main {
+  background-color: #ececec;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 1rem 0;
+}
+
+.campo {
+  width: 100px;
+  margin: 0.5rem 0;
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  border: 2px solid #afafaf;
+  border-radius: 1rem;
+}
+
+#botao-calcular {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: #34825f;
+  color: #ffffff;
+  border: 2px solid #afafaf;
+  border-radius: 5rem;
 }
 
 img {
   height: 150px;
+}
+
+footer {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+#code {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  list-style-type: none;
+}
+
+#code li {
+  margin: 0 0.5rem;
+  font-size: 2rem;
+}
+
+.html {
+  color: #e34c26;
+}
+
+.css {
+  color: #264de4;
+}
+
+.js {
+  color: #f0db4f;
+}
+
+.github {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0.2rem 0;
 }

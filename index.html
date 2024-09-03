@@ -4,17 +4,60 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Troco</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
   </head>
 
   <body>
-    <h1>Troco</h1>
-    <input id="recebido" type="text" placeholder="Dinheiro recebido" />
-    <input id="valor" name="text" placeholder="Valor da compra" />
-    <button onclick="calcular()">Calcular</button>
-    <h2 id="troco"></h2>
-    <ul id="notas"></ul>
+    <header>
+      <h1>
+        <i class="fa-solid fa-cash-register"></i> Troco Fácil
+        <i class="fa-solid fa-money-bill-transfer"></i>
+      </h1>
+    </header>
+    <main>
+      <label for="recebido">Dinheiro recebido:</label>
 
+      <span>R$<input class="campo" id="recebido" type="text" /></span>
+
+      <label for="valor">Valor da compra:</label>
+      <span>R$<input class="campo" id="valor" type="text" /></span>
+
+      <button id="botao-calcular" onclick="calcular()">Calcular</button>
+
+      <h2 id="troco"></h2>
+      <ul id="notas"></ul>
+    </main>
+    <footer>
+      <ul id="code">
+        <li class="html"><i class="fa-brands fa-html5"></i></li>
+        <li class="css"><i class="fa-brands fa-css3-alt"></i></li>
+        <li class="js"><i class="fa-brands fa-js"></i></li>
+      </ul>
+      <a
+        class="github"
+        href="https://github.com/lucas-elds/CalculoDinheiro"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><i class="fa-solid fa-code-branch"></i> Repositório</a
+      >
+      <a
+        class="github"
+        href="https://github.com/lucas-elds"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><i class="fa-brands fa-github"></i> lucas-elds</a
+      >
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
