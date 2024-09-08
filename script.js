@@ -21,6 +21,8 @@ const cedulas = [
 
 function calcular() {
   let calculo = recebido.value - valor.value;
+  calculo = calculo.toFixed(2);
+  calculo = parseFloat(calculo)
   notasHTML.innerHTML = `<h2>Troco: R$ ${calculo.toFixed(2)}</h2>`;
   while (calculo > 0) {
     for (let i = 0; i < notas.length; i++) {
